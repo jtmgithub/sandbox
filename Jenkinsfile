@@ -13,5 +13,11 @@ pipeline {
       }
     }
 
+    stage('Generate deploy script') {
+      steps {
+        echo 'Generate docker run'
+      }
+    }
+
   }
 }
